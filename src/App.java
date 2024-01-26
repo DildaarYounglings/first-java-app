@@ -17,7 +17,7 @@ public class App {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         SnakeGame snakeGame = new SnakeGame(boardWidth, boardHeight);
-        // adds the panel snakeGame to the frame or window //
+        // adds the panel snakeGame to the frame or window and makes it fit properly so that it works //
         frame.add(snakeGame);
         frame.pack();
         // ----------------------------------------------- //
